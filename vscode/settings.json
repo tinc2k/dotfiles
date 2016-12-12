@@ -1,8 +1,15 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "editor.fontSize": 16,
-    "editor.softWrap": true,
-    "editor.tabSize": 2,
-    "editor.wrappingColumn": 0,
-    "git.confirmSync": false
+  "editor.fontSize": 15,
+  "editor.softWrap": true,
+  "editor.tabSize": 2,
+  "editor.wrappingColumn": 0,
+  "git.confirmSync": false,
+  "search.exclude": {
+    "**/.git": true,
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/tmp": true,
+    "**/build": true
   }
+}
