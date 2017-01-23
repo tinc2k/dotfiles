@@ -13,24 +13,13 @@ module.exports = {
     },
     "sourceType": "module"
   },
-  "plugins": [
-    "react",
-    "pug"
-  ],
+  "plugins": [ "react", "pug" ],
   "rules": {
-    "indent": [
-      "warn",
-      2
-    ],
-    "quotes": [
-      "error",
-      "single"
-    ],
-    "semi": [
-      "error",
-      "always"
-    ],
-    "no-console": "off"
+    "indent": [ "warn", 2 ],
+    "quotes": [ "warn", "single" ],
+    "semi": [ "error", "always" ],
+    "no-console": "off",
+    "react/jsx-uses-vars": "warn"
   },
   "globals": {
     "console": true,
