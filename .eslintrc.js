@@ -16,7 +16,10 @@ module.exports = {
   "plugins": [ "react", "pug" ],
   "rules": {
     "indent": [ "warn", 2 ],
-    "quotes": [ "warn", "single", "allowTemplateLiterals" ],
+    "quotes": [ "warn", "single", {
+      avoidEscape: true,
+      allowTemplateLiterals: true
+    }],
     "semi": [ "error", "always" ],
     "no-console": "off",
     "react/jsx-uses-vars": "warn"
