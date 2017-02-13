@@ -17,8 +17,8 @@ module.exports = {
   "rules": {
     "indent": [ "warn", 2 ],
     "quotes": [ "warn", "single", {
-      avoidEscape: true,
-      allowTemplateLiterals: true
+      "avoidEscape": true,
+      "allowTemplateLiterals": true
     }],
     "semi": [ "error", "always" ],
     "no-console": "off",
