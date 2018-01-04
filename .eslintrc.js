@@ -5,13 +5,13 @@ module.exports = {
     "node": true
   },
   "extends": "eslint:recommended",
-  "installedESLint": true,
   "parserOptions": {
+    "ecmaVersion": 8, //2017
+    "sourceType": "module",
     "ecmaFeatures": {
       "experimentalObjectRestSpread": true,
       "jsx": true
-    },
-    "sourceType": "module"
+    }
   },
   "plugins": [ "react", "pug" ],
   "rules": {
